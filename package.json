@@ -1,0 +1,15 @@
+{
+  "name": "colmeia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "program.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Júnio Albino",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^7.0.5",
+    "nodemon": "^1.11.0"
+  }
+}

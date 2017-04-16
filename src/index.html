@@ -1,17 +1,15 @@
 <html>
     <head>
-        
+        <title>Colméia</title>
+          <script src="code.js"></script>
     </head>
     <body>
-        Simulador de colméia<br>
-        Seja um zangão, um soldado ou uma colheitadeira, viva o mundo da colméia! <br>
+        <h1>Simulador de colméia</h1><br>
+        <h2> um zangão, um soldado ou uma colheitadeira, viva o mundo da colméia! </h2><br>
         <input type="number" id="numInicialAbelhas"/>
-        <button onclick="gravarNumInicialAbelhas()">Digite o número inicial de Abelhas</button>
+        <button onclick="gravarNumInicialAbelhas(this)">Digite o número inicial de Abelhas</button></br>
+        <!forma que exibir o numero de abelhas>
+        <button onclick="exibirAbelhas()">Clique para exibir abelhas</button>
     </body>
-    <script>
-        
-        function gravarNumInicialAbelhas() {
-            console.log(document.getElementById("numInicialAbelhas").value);
-        }
-    </script>
+  
 </html>

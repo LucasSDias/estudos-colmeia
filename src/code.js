@@ -2,10 +2,18 @@ var numAtualAbelhas; // criando uma variável
 
 numAtualAbelhas = 0; // preenchendo uma variável
 
-var gravarNumInicialAbelhas = function() {
-     numAtualAbelhas = document.getElementById("numInicialAbelhas").value;
+function gravarNumInicialAbelhas() {
+     numAtualAbelhas = parseInt(document.getElementById("numInicialAbelhas").value);
 }
 
-var exibirAbelhas = function() {
+function exibirAbelhas() {
     document.getElementById("spanNumAtualAbelhas").innerText = numAtualAbelhas;
 }
+
+function iniciarContagem() {
+    setInterval (parirAbelhas, 1000)}
+
+function parirAbelhas(){
+    numAtualAbelhas = numAtualAbelhas + 1;
+}
+

@@ -1,3 +1,11 @@
+var numAtualAbelhas; // criando uma variável
+
+numAtualAbelhas = 0; // preenchendo uma variável
+
 var gravarNumInicialAbelhas = function() {
-    console.log(this.document.getElementById("numInicialAbelhas").value);
+     numAtualAbelhas = document.getElementById("numInicialAbelhas").value;
+}
+
+var exibirAbelhas = function() {
+    document.getElementById("spanNumAtualAbelhas").innerText = numAtualAbelhas;
 }
